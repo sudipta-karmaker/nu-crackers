@@ -37,62 +37,236 @@
   </div>
 </nav>
 
-<section id="homeCarousel" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active"></button>
-    <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1"></button>
-    <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <div class="hero-slide">
-        <div class="container">
-          <div class="row align-items-center g-5">
-            <div class="col-lg-7 hero-content">
-              <span class="hero-badge">🎓 Admission Preparation Platform</span>
-              <h1 class="hero-title mt-3">স্বপ্ন জয়ের <span>বিশ্বস্থ সারথি</span></h1>
-              <p class="hero-subtitle mt-3">জাতীয় বিশ্ববিদ্যালয়সহ বিভিন্ন ভর্তি পরীক্ষার জন্য পরিকল্পিত প্রস্তুতি, মানসম্মত স্টাডি ম্যাটেরিয়াল ও নিয়মিত মডেল টেস্ট—সবকিছু এক প্ল্যাটফর্মে।</p>
-              <div class="d-flex flex-wrap gap-3 mt-4 justify-content-center justify-content-lg-start">
-                <a href="courses.html" class="btn btn-warning btn-lg rounded-pill px-4 fw-bold">Explore Courses</a>
-                <a href="contact.html" class="btn btn-outline-light btn-lg rounded-pill px-4">Contact Us</a>
-              </div>
-            </div>
-            <div class="col-lg-5 text-center">
-              <img src="assets/logo.jpg" class="hero-logo" alt="NU Crackers">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <div class="hero-slide">
-        <div class="container text-center">
-          <div class="hero-content">
-            <span class="hero-badge">📚 Learn • Practice • Improve</span>
-            <h2 class="hero-title mt-3">সঠিক প্রস্তুতি, <span>সঠিক ফলাফল</span></h2>
-            <p class="hero-subtitle mx-auto mt-3">Free ও Premium batch-এর মাধ্যমে নিয়মিত অনুশীলন এবং পরীক্ষাভিত্তিক প্রস্তুতি নিন।</p>
-            <a href="courses.html" class="btn btn-warning btn-lg rounded-pill px-4 mt-4 fw-bold">View Our Courses</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <div class="hero-slide">
-        <div class="container text-center">
-          <div class="hero-content">
-            <span class="hero-badge">🚀 Your Admission Journey Starts Here</span>
-            <h2 class="hero-title mt-3">আজকের প্রস্তুতিই <span>আগামীর সাফল্য</span></h2>
-            <p class="hero-subtitle mx-auto mt-3">Science, Arts ও Commerce—প্রতিটি গ্রুপের জন্য আলাদা ও সাজানো রিসোর্স।</p>
-            <a href="services.html" class="btn btn-warning btn-lg rounded-pill px-4 mt-4 fw-bold">See Services</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
-  <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
-</section>
+<!-- =========================
+     HOME CAROUSEL
+========================= -->
 
+<section id="homeCarousel"
+         class="carousel slide"
+         data-bs-ride="carousel"
+         data-bs-interval="4000">
+
+  <!-- Indicators -->
+  <div class="carousel-indicators">
+
+    <button type="button"
+            data-bs-target="#homeCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1">
+    </button>
+
+    <button type="button"
+            data-bs-target="#homeCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2">
+    </button>
+
+    <button type="button"
+            data-bs-target="#homeCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3">
+    </button>
+
+  </div>
+
+
+  <!-- Carousel -->
+  <div class="carousel-inner">
+
+
+    <!-- =========================
+         SLIDE 1
+    ========================== -->
+
+    <div class="carousel-item active">
+
+      <div class="hero-slide"
+           style="background-image: url('images/varsity.png');">
+
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-container">
+
+          <div class="hero-content">
+
+            <span class="hero-badge">
+              🎓 Admission Preparation Platform
+            </span>
+
+            <h1 class="hero-title mt-3">
+              স্বপ্ন জয়ের
+              <span>বিশ্বস্থ সারথি</span>
+            </h1>
+
+            <p class="hero-subtitle mt-3">
+              জাতীয় বিশ্ববিদ্যালয়সহ বিভিন্ন ভর্তি পরীক্ষার জন্য
+              পরিকল্পিত প্রস্তুতি, মানসম্মত স্টাডি ম্যাটেরিয়াল ও
+              নিয়মিত মডেল টেস্ট—সবকিছু এক প্ল্যাটফর্মে।
+            </p>
+
+            <div class="d-flex flex-wrap gap-3 mt-4">
+
+              <a href="courses.html"
+                 class="btn btn-warning btn-lg rounded-pill px-4 fw-bold">
+                Explore Courses
+              </a>
+
+              <a href="contact.html"
+                 class="btn btn-outline-light btn-lg rounded-pill px-4">
+                Contact Us
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- =========================
+         SLIDE 2
+    ========================== -->
+
+    <div class="carousel-item">
+
+      <div class="hero-slide"
+           style="background-image: url('assets/slider2.jpg');">
+
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-container">
+
+          <div class="hero-content">
+
+            <span class="hero-badge">
+              📚 Learn • Practice • Improve
+            </span>
+
+            <h2 class="hero-title mt-3">
+              সঠিক প্রস্তুতি,
+              <span>সঠিক ফলাফল</span>
+            </h2>
+
+            <p class="hero-subtitle mt-3">
+              Free ও Premium batch-এর মাধ্যমে নিয়মিত অনুশীলন
+              এবং পরীক্ষাভিত্তিক প্রস্তুতি নিন।
+            </p>
+
+            <div class="d-flex flex-wrap gap-3 mt-4">
+
+              <a href="courses.html"
+                 class="btn btn-warning btn-lg rounded-pill px-4 fw-bold">
+                View Our Courses
+              </a>
+
+              <a href="contact.html"
+                 class="btn btn-outline-light btn-lg rounded-pill px-4">
+                Contact Us
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- =========================
+         SLIDE 3
+    ========================== -->
+
+    <div class="carousel-item">
+
+      <div class="hero-slide"
+           style="background-image: url('assets/slider3.jpg');">
+
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-container">
+
+          <div class="hero-content">
+
+            <span class="hero-badge">
+              🚀 Your Admission Journey Starts Here
+            </span>
+
+            <h2 class="hero-title mt-3">
+              আজকের প্রস্তুতিই
+              <span>আগামীর সাফল্য</span>
+            </h2>
+
+            <p class="hero-subtitle mt-3">
+              Science, Arts ও Commerce—প্রতিটি গ্রুপের জন্য
+              আলাদা ও সাজানো রিসোর্স।
+            </p>
+
+            <div class="d-flex flex-wrap gap-3 mt-4">
+
+              <a href="services.html"
+                 class="btn btn-warning btn-lg rounded-pill px-4 fw-bold">
+                See Services
+              </a>
+
+              <a href="courses.html"
+                 class="btn btn-outline-light btn-lg rounded-pill px-4">
+                Explore Courses
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- Previous -->
+  <button class="carousel-control-prev"
+          type="button"
+          data-bs-target="#homeCarousel"
+          data-bs-slide="prev">
+
+    <span class="carousel-control-prev-icon"></span>
+
+    <span class="visually-hidden">
+      Previous
+    </span>
+
+  </button>
+
+
+  <!-- Next -->
+  <button class="carousel-control-next"
+          type="button"
+          data-bs-target="#homeCarousel"
+          data-bs-slide="next">
+
+    <span class="carousel-control-next-icon"></span>
+
+    <span class="visually-hidden">
+      Next
+    </span>
+
+  </button>
+
+</section>
 <section class="section">
   <div class="container">
     <div class="section-title">
