@@ -44,7 +44,7 @@ a{text-decoration:none}
 .hero-badge{display:inline-block;padding:7px 15px;border:1px solid rgba(255,255,255,.3);border-radius:50px;background:rgba(255,255,255,.08);font-size:.9rem}
 .hero-title{font-size:clamp(2.25rem,5vw,4.4rem);font-weight:800;line-height:1.15}
 .hero-title span{color:var(--accent)}
-.hero-subtitle{font-size:1.1rem;max-width:650px;color:#dbeafe}
+.hero-subtitle{font-size:1.1rem;max-width:650px;color:#881e1e}
 .hero-logo{max-width:390px;width:75%;filter:drop-shadow(0 20px 30px rgba(0,0,0,.2))}
 .section{padding:90px 0}
 .section-soft{background:var(--light)}
